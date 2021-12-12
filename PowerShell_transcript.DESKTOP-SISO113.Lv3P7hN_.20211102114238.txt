@@ -1,0 +1,602 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20211102114238
+Username: DESKTOP-SISO113\HP
+RunAs User: DESKTOP-SISO113\HP
+Configuration Name: 
+Machine: DESKTOP-SISO113 (Microsoft Windows NT 10.0.19043.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7588
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\HP\Documents\PowerShell_transcript.DESKTOP-SISO113.Lv3P7hN_.20211102114238.txt
+PS C:\WINDOWS\system32>
+PS>Get-OrganizationConfig
+
+
+RunspaceId                                                : 53164c0b-d6b3-444a-9e71-078fcaa1d2df
+OrganizationId                                            : INDPR01A002.PROD.OUTLOOK.COM/Microsoft Exchange Hosted
+                                                            Organizations/unicomindia.onmicrosoft.com - INDPR01A002.PRO
+                                                            D.OUTLOOK.COM/ConfigurationUnits/unicomindia.onmicrosoft.co
+                                                            m/Configuration
+Name                                                      : unicomindia.onmicrosoft.com
+Identity                                                  : unicomindia.onmicrosoft.com
+Guid                                                      : 6cd4be31-8476-4ce8-9f98-6511913e173e
+ObjectVersion                                             : 16500
+DefaultPublicFolderAgeLimit                               :
+DefaultPublicFolderIssueWarningQuota                      : 1.7 GB (1,825,361,920 bytes)
+DefaultPublicFolderProhibitPostQuota                      : 2 GB (2,147,483,648 bytes)
+DefaultPublicFolderMaxItemSize                            : Unlimited
+DefaultPublicFolderDeletedItemRetention                   : 30.00:00:00
+DefaultPublicFolderMovedItemRetention                     : 7.00:00:00
+PublicFoldersLockedForMigration                           : False
+PublicFolderMigrationComplete                             : False
+PublicFolderMailboxesLockedForNewConnections              : False
+PublicFolderMailboxesMigrationComplete                    : False
+PublicFolderShowClientControl                             : False
+PublicFoldersEnabled                                      : Local
+ActivityBasedAuthenticationTimeoutEnabled                 : True
+ActivityBasedAuthenticationTimeoutInterval                : 06:00:00
+ActivityBasedAuthenticationTimeoutWithSingleSignOnEnabled : True
+AppsForOfficeEnabled                                      : True
+AppsForOfficeCorpCatalogAppsCount                         : 0
+PrivateCatalogAppsCount                                   : 0
+AVAuthenticationService                                   :
+CustomerFeedbackEnabled                                   :
+DistributionGroupDefaultOU                                :
+DistributionGroupNameBlockedWordsList                     : {}
+DistributionGroupNamingPolicy                             :
+EwsAllowEntourage                                         :
+EwsAllowList                                              :
+EwsAllowMacOutlook                                        :
+EwsAllowOutlook                                           :
+AllowPlusAddressInRecipients                              : False
+MaskClientIpInReceivedHeadersEnabled                      : True
+EwsApplicationAccessPolicy                                :
+EwsBlockList                                              :
+AutodiscoverPartialDirSync                                : False
+EwsEnabled                                                :
+IPListBlocked                                             : {}
+ElcProcessingDisabled                                     : False
+AutoExpandingArchiveEnabled                               : False
+ComplianceMLBgdCrawlEnabled                               : False
+ExchangeNotificationEnabled                               : True
+ExchangeNotificationRecipients                            : {}
+HierarchicalAddressBookRoot                               :
+Industry                                                  : NotSpecified
+MailTipsAllTipsEnabled                                    : True
+MailTipsExternalRecipientsTipsEnabled                     : False
+MailTipsGroupMetricsEnabled                               : True
+MailTipsLargeAudienceThreshold                            : 25
+MailTipsMailboxSourcedTipsEnabled                         : True
+ManagedFolderHomepage                                     :
+MicrosoftExchangeRecipientEmailAddresses                  : {SMTP:MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@uni
+                                                            comindia.onmicrosoft.com}
+MicrosoftExchangeRecipientEmailAddressPolicyEnabled       : False
+MicrosoftExchangeRecipientPrimarySmtpAddress              : MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@unicomind
+                                                            ia.onmicrosoft.com
+MicrosoftExchangeRecipientReplyRecipient                  :
+ForwardSyncLiveIdBusinessInstance                         : False
+OrganizationSummary                                       : {}
+ReadTrackingEnabled                                       : False
+SCLJunkThreshold                                          : 4
+SIPAccessService                                          :
+SIPSessionBorderController                                :
+MaxConcurrentMigrations                                   : Unlimited
+MaxAddressBookPolicies                                    :
+MaxOfflineAddressBooks                                    :
+MaxInformationBarrierSegments                             :
+MaxIBSegments                                             : 5000
+MaxIBBridges                                              : 5000
+IsExcludedFromOnboardMigration                            : False
+IsExcludedFromOffboardMigration                           : False
+IsFfoMigrationInProgress                                  : False
+ExternalCloudAccessEnabled                                : False
+IsProcessEhaMigratedMessagesEnabled                       : False
+TenantRelocationsAllowed                                  : False
+ACLableSyncedObjectEnabled                                : False
+PreferredInternetCodePageForShiftJis                      : 0
+RequiredCharsetCoverage                                   : 100
+ByteEncoderTypeFor7BitCharsets                            : 0
+PublicComputersDetectionEnabled                           : False
+RmsoSubscriptionStatus                                    : Deleted
+IntuneManagedStatus                                       : False
+AzurePremiumSubscriptionStatus                            : False
+HybridConfigurationStatus                                 : Unknown
+ReleaseTrack                                              :
+CompassEnabled                                            :
+SharePointUrl                                             : https://unicomindia.sharepoint.com/
+MapiHttpEnabled                                           : False
+RealTimeLogServiceEnabled                                 : False
+CustomerLockboxEnabled                                    : False
+OAuth2ClientProfileEnabled                                : True
+PerTenantSwitchToESTSEnabled                              : False
+LinkPreviewEnabled                                        : True
+OutlookPayEnabled                                         : True
+ConnectorsEnabled                                         : True
+ConnectorsActionableMessagesEnabled                       : True
+SmtpActionableMessagesEnabled                             : True
+OfficeGraphActivitySharingOrgOptout                       : False
+UnblockUnsafeSenderPromptEnabled                          : True
+AsyncSendEnabled                                          : True
+RefreshSessionEnabled                                     : False
+IsAgendaMailEnabled                                       : True
+NetworkThrottlingConfiguration                            :
+BookingsEnabled                                           : True
+BookingsEnabledLastUpdateTime                             : 01-01-0001 00:00:00
+BookingsPaymentsEnabled                                   : False
+BookingsSocialSharingRestricted                           : False
+BookingsAddressEntryRestricted                            : False
+BookingsAuthEnabled                                       : False
+BookingsCreationOfCustomQuestionsRestricted               : False
+BookingsExposureOfStaffDetailsRestricted                  : False
+BookingsNotesEntryRestricted                              : False
+BookingsPhoneNumberEntryRestricted                        : False
+BookingsMembershipApprovalRequired                        : False
+LeanPopoutEnabled                                         : False
+OutlookMobileHelpShiftEnabled                             : True
+OutlookMobileSingleAccountEnabled                         : False
+OutlookMobileGCCRestrictionsEnabled                       : False
+ElevatedAccessControl                                     :
+AuditDisabled                                             : False
+WebPushNotificationsDisabled                              : False
+WebSuggestedRepliesDisabled                               : False
+ConnectorsEnabledForOutlook                               : True
+ConnectorsEnabledForOutlookLastUpdateTime                 : 01-01-0001 00:00:00
+ConnectorsEnabledForTeams                                 : True
+ConnectorsEnabledForTeamsLastUpdateTime                   : 01-01-0001 00:00:00
+ConnectorsEnabledForSharepoint                            : True
+ConnectorsEnabledForSharepointLastUpdateTime              : 01-01-0001 00:00:00
+ConnectorsEnabledForYammer                                : True
+ConnectorsEnabledForYammerLastUpdateTime                  : 01-01-0001 00:00:00
+AutoEnableArchiveMailbox                                  : False
+OnlineMeetingsByDefaultEnabled                            :
+SendFromAliasEnabled                                      : False
+OutlookTextPredictionDisabled                             : False
+MobileAppEducationEnabled                                 : True
+EnableForwardingAddressSyncForMailboxes                   : False
+OutlookGifPickerDisabled                                  : False
+WorkspaceTenantEnabled                                    : True
+BasicAuthBlockedApps                                      : None
+ShortenEventScopeDefault                                  : None
+DefaultMinutesToReduceShortEventsBy                       : 5
+DefaultMinutesToReduceLongEventsBy                        : 10
+FindTimeAttendeeAuthenticationEnabled                     : False
+FindTimeOnlineMeetingOptionDisabled                       : False
+FindTimeAutoScheduleDisabled                              : False
+FindTimeLockPollForAttendeesEnabled                       : False
+MessageRemindersEnabled                                   : True
+IsEopTrialEnabled                                         : False
+EnableOutlookEvents                                       : False
+IsComplianceTrialEnabled                                  : False
+MessageHighlightsEnabled                                  : True
+OrganizationConfigHash                                    : fZBNTsMwEEavEmUFi9oxCpUqua6qRAg2wALYG9uJRorHkX8qytVYcCSugEM
+                                                            2tIq6Gvvzm3kj/3x9892HHYqD8QEcbktGqrIwqJwG7Ldlit2Krcud4G1zf3
+                                                            z3oBuHHfTJy5h5wR9CK6NsDEbjxYtPhtOTiO+1BWwhjIM8vs0WUZGbqrhit
+                                                            7mQel1vCNtcc7pE5vmvY+/ltM2T7yXC5yy+k0P4cy0/82dvDuBSWNazSV+T
+                                                            6VCRKrsv4XyvlBmj0a2zEvJ9ro/SGpEQVspZAsjpv/gMyQSgBkkcWlDeBdd
+                                                            FksPTHnruoct//gs=
+LegacyExchangeDN                                          : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF2
+                                                            3SPDLT)/cn=unicomindia.onmicrosoft.com/cn=Configuration
+DisplayName                                               : Uni-Com India Pvt Ltd
+Heuristics                                                : None
+ResourceAddressLists                                      : {\All Rooms}
+IsMixedMode                                               : True
+PreviousAdminDisplayVersion                               : 0.10 (14.0.100.0)
+IsAddressListPagingEnabled                                : True
+ForeignForestFQDN                                         : {}
+ForeignForestOrgAdminUSGSid                               :
+ForeignForestRecipientAdminUSGSid                         :
+ForeignForestViewOnlyAdminUSGSid                          :
+MimeTypes                                                 : {}
+IsLicensingEnforced                                       : True
+IsTenantAccessBlocked                                     : False
+IsDualWriteEnabled                                        : True
+IsTenantInGracePeriod                                     : False
+IsDehydrated                                              : False
+IsGuidPrefixedLegacyDnDisabled                            : False
+IsMailboxForcedReplicationDisabled                        : False
+RBACConfigurationVersion                                  : 0.1 (15.20.4649.19)
+RootPublicFolderMailbox                                   :
+RemotePublicFolderMailboxes                               : {}
+AdminDisplayVersion                                       : 0.20 (15.20.4649.19)
+IsUpgradingOrganization                                   : False
+IsUpdatingServicePlan                                     : False
+ServicePlan                                               : BPOS_S_E15_0
+TargetServicePlan                                         :
+WACDiscoveryEndpoint                                      :
+UMAvailableLanguages                                      : {en-US}
+AdfsAuthenticationConfiguration                           :
+AdfsIssuer                                                :
+AdfsAudienceUris                                          : {}
+AdfsSignCertificateThumbprints                            : {}
+AdfsEncryptCertificateThumbprint                          :
+SiteMailboxCreationURL                                    :
+DefaultDataEncryptionPolicy                               :
+MailboxDataEncryptionEnabled                              : False
+DefaultAuthenticationPolicy                               :
+AllowedMailboxRegions                                     : {IND=INDPRD01.PROD.OUTLOOK.COM}
+DefaultMailboxRegion                                      : IND
+IsJitEnabled                                              :
+AutoJitForests                                            :
+DefaultMailboxRegionLastUpdateTime                        : 15-03-2019 15:33:40
+AllowedMailboxRegionsLastUpdateTime                       : 01-01-0001 00:00:00
+DirectReportsGroupAutoCreationEnabled                     : False
+AllowToAddGuests                                          : True
+GuestsEnabled                                             : True
+GroupsCreationEnabled                                     : True
+HiddenMembershipGroupsCreationEnabled                     : False
+GroupsCreationWhitelistedId                               :
+GroupsUsageGuidelinesLink                                 :
+DefaultGroupAccessType                                    : Private
+GroupLifeCyclePolicy                                      : <GroupLifeCyclePolicy><GroupLifetimeInDays>-1</GroupLifetim
+                                                            eInDays><ManagedGroupType p2:nil="true"
+                                                            xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" /><Las
+                                                            tUpdatedTime>2021-10-30T06:06:41.1621834Z</LastUpdatedTime>
+                                                            </GroupLifeCyclePolicy>
+GroupsNamingPolicy                                        :
+DataClassifications                                       : <DataClassifications />
+VisibleMeetingUpdateProperties                            : Location,AllProperties:15
+MatchSenderOrganizerProperties                            : False
+DisableMailboxForSubstrateOnlyFinished                    : False
+InPlaceHolds                                              : {}
+ServiceInstanceMove                                       :
+GuestsUsageGuidelinesLink                                 :
+OrganizationPrivacyStatementLink                          :
+IsMIPLabelForGroupsEnabled                                : False
+IsGroupFoldersAndRulesEnabled                             : False
+BlockMoveMessagesForGroupFolders                          : False
+FocusedInboxOn                                            :
+FocusedInboxOnLastUpdateTime                              : 01-01-0001 00:00:00
+ForestConfigVersion                                       :
+ForestConfigLastRunTime                                   : 01-01-0001 00:00:00
+EndUserDLUpgradeFlowsDisabled                             : False
+OcmGroupId                                                :
+Id                                                        : First Organization
+IsValid                                                   : True
+ExchangeVersion                                           : 0.1 (8.0.535.0)
+DistinguishedName                                         : CN=Configuration,CN=unicomindia.onmicrosoft.com,CN=Configur
+                                                            ationUnits,DC=INDPR01A002,DC=PROD,DC=OUTLOOK,DC=COM
+ObjectCategory                                            : INDPR01A002.PROD.OUTLOOK.COM/Configuration/Schema/ms-Exch-C
+                                                            onfiguration-Unit-Container
+ObjectClass                                               : {top, container, msExchOrganizationContainer,
+                                                            msExchConfigurationUnitContainer}
+WhenChanged                                               : 02-11-2021 07:54:17
+WhenCreated                                               : 19-01-2016 13:22:14
+WhenChangedUTC                                            : 02-11-2021 02:24:17
+WhenCreatedUTC                                            : 19-01-2016 07:52:14
+ExchangeObjectId                                          : a309d863-10f3-4b63-8ffb-8a779781d19f
+OrganizationalUnitRoot                                    : unicomindia.onmicrosoft.com
+OriginatingServer                                         : BM1PR01A002DC07.INDPR01A002.PROD.OUTLOOK.COM
+ObjectState                                               : Changed
+
+
+
+PS C:\WINDOWS\system32>
+PS>Get-OrganizationConfig |FL
+
+
+RunspaceId                                                : 53164c0b-d6b3-444a-9e71-078fcaa1d2df
+OrganizationId                                            : INDPR01A002.PROD.OUTLOOK.COM/Microsoft Exchange Hosted
+                                                            Organizations/unicomindia.onmicrosoft.com - INDPR01A002.PRO
+                                                            D.OUTLOOK.COM/ConfigurationUnits/unicomindia.onmicrosoft.co
+                                                            m/Configuration
+Name                                                      : unicomindia.onmicrosoft.com
+Identity                                                  : unicomindia.onmicrosoft.com
+Guid                                                      : 6cd4be31-8476-4ce8-9f98-6511913e173e
+ObjectVersion                                             : 16500
+DefaultPublicFolderAgeLimit                               :
+DefaultPublicFolderIssueWarningQuota                      : 1.7 GB (1,825,361,920 bytes)
+DefaultPublicFolderProhibitPostQuota                      : 2 GB (2,147,483,648 bytes)
+DefaultPublicFolderMaxItemSize                            : Unlimited
+DefaultPublicFolderDeletedItemRetention                   : 30.00:00:00
+DefaultPublicFolderMovedItemRetention                     : 7.00:00:00
+PublicFoldersLockedForMigration                           : False
+PublicFolderMigrationComplete                             : False
+PublicFolderMailboxesLockedForNewConnections              : False
+PublicFolderMailboxesMigrationComplete                    : False
+PublicFolderShowClientControl                             : False
+PublicFoldersEnabled                                      : Local
+ActivityBasedAuthenticationTimeoutEnabled                 : True
+ActivityBasedAuthenticationTimeoutInterval                : 06:00:00
+ActivityBasedAuthenticationTimeoutWithSingleSignOnEnabled : True
+AppsForOfficeEnabled                                      : True
+AppsForOfficeCorpCatalogAppsCount                         : 0
+PrivateCatalogAppsCount                                   : 0
+AVAuthenticationService                                   :
+CustomerFeedbackEnabled                                   :
+DistributionGroupDefaultOU                                :
+DistributionGroupNameBlockedWordsList                     : {}
+DistributionGroupNamingPolicy                             :
+EwsAllowEntourage                                         :
+EwsAllowList                                              :
+EwsAllowMacOutlook                                        :
+EwsAllowOutlook                                           :
+AllowPlusAddressInRecipients                              : False
+MaskClientIpInReceivedHeadersEnabled                      : True
+EwsApplicationAccessPolicy                                :
+EwsBlockList                                              :
+AutodiscoverPartialDirSync                                : False
+EwsEnabled                                                :
+IPListBlocked                                             : {}
+ElcProcessingDisabled                                     : False
+AutoExpandingArchiveEnabled                               : False
+ComplianceMLBgdCrawlEnabled                               : False
+ExchangeNotificationEnabled                               : True
+ExchangeNotificationRecipients                            : {}
+HierarchicalAddressBookRoot                               :
+Industry                                                  : NotSpecified
+MailTipsAllTipsEnabled                                    : True
+MailTipsExternalRecipientsTipsEnabled                     : False
+MailTipsGroupMetricsEnabled                               : True
+MailTipsLargeAudienceThreshold                            : 25
+MailTipsMailboxSourcedTipsEnabled                         : True
+ManagedFolderHomepage                                     :
+MicrosoftExchangeRecipientEmailAddresses                  : {SMTP:MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@uni
+                                                            comindia.onmicrosoft.com}
+MicrosoftExchangeRecipientEmailAddressPolicyEnabled       : False
+MicrosoftExchangeRecipientPrimarySmtpAddress              : MicrosoftExchange329e71ec88ae4615bbc36ab6ce41109e@unicomind
+                                                            ia.onmicrosoft.com
+MicrosoftExchangeRecipientReplyRecipient                  :
+ForwardSyncLiveIdBusinessInstance                         : False
+OrganizationSummary                                       : {}
+ReadTrackingEnabled                                       : False
+SCLJunkThreshold                                          : 4
+SIPAccessService                                          :
+SIPSessionBorderController                                :
+MaxConcurrentMigrations                                   : Unlimited
+MaxAddressBookPolicies                                    :
+MaxOfflineAddressBooks                                    :
+MaxInformationBarrierSegments                             :
+MaxIBSegments                                             : 5000
+MaxIBBridges                                              : 5000
+IsExcludedFromOnboardMigration                            : False
+IsExcludedFromOffboardMigration                           : False
+IsFfoMigrationInProgress                                  : False
+ExternalCloudAccessEnabled                                : False
+IsProcessEhaMigratedMessagesEnabled                       : False
+TenantRelocationsAllowed                                  : False
+ACLableSyncedObjectEnabled                                : False
+PreferredInternetCodePageForShiftJis                      : 0
+RequiredCharsetCoverage                                   : 100
+ByteEncoderTypeFor7BitCharsets                            : 0
+PublicComputersDetectionEnabled                           : False
+RmsoSubscriptionStatus                                    : Deleted
+IntuneManagedStatus                                       : False
+AzurePremiumSubscriptionStatus                            : False
+HybridConfigurationStatus                                 : Unknown
+ReleaseTrack                                              :
+CompassEnabled                                            :
+SharePointUrl                                             : https://unicomindia.sharepoint.com/
+MapiHttpEnabled                                           : False
+RealTimeLogServiceEnabled                                 : False
+CustomerLockboxEnabled                                    : False
+OAuth2ClientProfileEnabled                                : True
+PerTenantSwitchToESTSEnabled                              : False
+LinkPreviewEnabled                                        : True
+OutlookPayEnabled                                         : True
+ConnectorsEnabled                                         : True
+ConnectorsActionableMessagesEnabled                       : True
+SmtpActionableMessagesEnabled                             : True
+OfficeGraphActivitySharingOrgOptout                       : False
+UnblockUnsafeSenderPromptEnabled                          : True
+AsyncSendEnabled                                          : True
+RefreshSessionEnabled                                     : False
+IsAgendaMailEnabled                                       : True
+NetworkThrottlingConfiguration                            :
+BookingsEnabled                                           : True
+BookingsEnabledLastUpdateTime                             : 01-01-0001 00:00:00
+BookingsPaymentsEnabled                                   : False
+BookingsSocialSharingRestricted                           : False
+BookingsAddressEntryRestricted                            : False
+BookingsAuthEnabled                                       : False
+BookingsCreationOfCustomQuestionsRestricted               : False
+BookingsExposureOfStaffDetailsRestricted                  : False
+BookingsNotesEntryRestricted                              : False
+BookingsPhoneNumberEntryRestricted                        : False
+BookingsMembershipApprovalRequired                        : False
+LeanPopoutEnabled                                         : False
+OutlookMobileHelpShiftEnabled                             : True
+OutlookMobileSingleAccountEnabled                         : False
+OutlookMobileGCCRestrictionsEnabled                       : False
+ElevatedAccessControl                                     :
+AuditDisabled                                             : False
+WebPushNotificationsDisabled                              : False
+WebSuggestedRepliesDisabled                               : False
+ConnectorsEnabledForOutlook                               : True
+ConnectorsEnabledForOutlookLastUpdateTime                 : 01-01-0001 00:00:00
+ConnectorsEnabledForTeams                                 : True
+ConnectorsEnabledForTeamsLastUpdateTime                   : 01-01-0001 00:00:00
+ConnectorsEnabledForSharepoint                            : True
+ConnectorsEnabledForSharepointLastUpdateTime              : 01-01-0001 00:00:00
+ConnectorsEnabledForYammer                                : True
+ConnectorsEnabledForYammerLastUpdateTime                  : 01-01-0001 00:00:00
+AutoEnableArchiveMailbox                                  : False
+OnlineMeetingsByDefaultEnabled                            :
+SendFromAliasEnabled                                      : False
+OutlookTextPredictionDisabled                             : False
+MobileAppEducationEnabled                                 : True
+EnableForwardingAddressSyncForMailboxes                   : False
+OutlookGifPickerDisabled                                  : False
+WorkspaceTenantEnabled                                    : True
+BasicAuthBlockedApps                                      : None
+ShortenEventScopeDefault                                  : None
+DefaultMinutesToReduceShortEventsBy                       : 5
+DefaultMinutesToReduceLongEventsBy                        : 10
+FindTimeAttendeeAuthenticationEnabled                     : False
+FindTimeOnlineMeetingOptionDisabled                       : False
+FindTimeAutoScheduleDisabled                              : False
+FindTimeLockPollForAttendeesEnabled                       : False
+MessageRemindersEnabled                                   : True
+IsEopTrialEnabled                                         : False
+EnableOutlookEvents                                       : False
+IsComplianceTrialEnabled                                  : False
+MessageHighlightsEnabled                                  : True
+OrganizationConfigHash                                    : fZBNTsMwEEavEmUFi9oxCpUqua6qRAg2wALYG9uJRorHkX8qytVYcCSugEM
+                                                            2tIq6Gvvzm3kj/3x9892HHYqD8QEcbktGqrIwqJwG7Ldlit2Krcud4G1zf3
+                                                            z3oBuHHfTJy5h5wR9CK6NsDEbjxYtPhtOTiO+1BWwhjIM8vs0WUZGbqrhit
+                                                            7mQel1vCNtcc7pE5vmvY+/ltM2T7yXC5yy+k0P4cy0/82dvDuBSWNazSV+T
+                                                            6VCRKrsv4XyvlBmj0a2zEvJ9ro/SGpEQVspZAsjpv/gMyQSgBkkcWlDeBdd
+                                                            FksPTHnruoct//gs=
+LegacyExchangeDN                                          : /o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF2
+                                                            3SPDLT)/cn=unicomindia.onmicrosoft.com/cn=Configuration
+DisplayName                                               : Uni-Com India Pvt Ltd
+Heuristics                                                : None
+ResourceAddressLists                                      : {\All Rooms}
+IsMixedMode                                               : True
+PreviousAdminDisplayVersion                               : 0.10 (14.0.100.0)
+IsAddressListPagingEnabled                                : True
+ForeignForestFQDN                                         : {}
+ForeignForestOrgAdminUSGSid                               :
+ForeignForestRecipientAdminUSGSid                         :
+ForeignForestViewOnlyAdminUSGSid                          :
+MimeTypes                                                 : {}
+IsLicensingEnforced                                       : True
+IsTenantAccessBlocked                                     : False
+IsDualWriteEnabled                                        : True
+IsTenantInGracePeriod                                     : False
+IsDehydrated                                              : False
+IsGuidPrefixedLegacyDnDisabled                            : False
+IsMailboxForcedReplicationDisabled                        : False
+RBACConfigurationVersion                                  : 0.1 (15.20.4649.19)
+RootPublicFolderMailbox                                   :
+RemotePublicFolderMailboxes                               : {}
+AdminDisplayVersion                                       : 0.20 (15.20.4649.19)
+IsUpgradingOrganization                                   : False
+IsUpdatingServicePlan                                     : False
+ServicePlan                                               : BPOS_S_E15_0
+TargetServicePlan                                         :
+WACDiscoveryEndpoint                                      :
+UMAvailableLanguages                                      : {en-US}
+AdfsAuthenticationConfiguration                           :
+AdfsIssuer                                                :
+AdfsAudienceUris                                          : {}
+AdfsSignCertificateThumbprints                            : {}
+AdfsEncryptCertificateThumbprint                          :
+SiteMailboxCreationURL                                    :
+DefaultDataEncryptionPolicy                               :
+MailboxDataEncryptionEnabled                              : False
+DefaultAuthenticationPolicy                               :
+AllowedMailboxRegions                                     : {IND=INDPRD01.PROD.OUTLOOK.COM}
+DefaultMailboxRegion                                      : IND
+IsJitEnabled                                              :
+AutoJitForests                                            :
+DefaultMailboxRegionLastUpdateTime                        : 15-03-2019 15:33:40
+AllowedMailboxRegionsLastUpdateTime                       : 01-01-0001 00:00:00
+DirectReportsGroupAutoCreationEnabled                     : False
+AllowToAddGuests                                          : True
+GuestsEnabled                                             : True
+GroupsCreationEnabled                                     : True
+HiddenMembershipGroupsCreationEnabled                     : False
+GroupsCreationWhitelistedId                               :
+GroupsUsageGuidelinesLink                                 :
+DefaultGroupAccessType                                    : Private
+GroupLifeCyclePolicy                                      : <GroupLifeCyclePolicy><GroupLifetimeInDays>-1</GroupLifetim
+                                                            eInDays><ManagedGroupType p2:nil="true"
+                                                            xmlns:p2="http://www.w3.org/2001/XMLSchema-instance" /><Las
+                                                            tUpdatedTime>2021-10-30T06:06:41.1621834Z</LastUpdatedTime>
+                                                            </GroupLifeCyclePolicy>
+GroupsNamingPolicy                                        :
+DataClassifications                                       : <DataClassifications />
+VisibleMeetingUpdateProperties                            : Location,AllProperties:15
+MatchSenderOrganizerProperties                            : False
+DisableMailboxForSubstrateOnlyFinished                    : False
+InPlaceHolds                                              : {}
+ServiceInstanceMove                                       :
+GuestsUsageGuidelinesLink                                 :
+OrganizationPrivacyStatementLink                          :
+IsMIPLabelForGroupsEnabled                                : False
+IsGroupFoldersAndRulesEnabled                             : False
+BlockMoveMessagesForGroupFolders                          : False
+FocusedInboxOn                                            :
+FocusedInboxOnLastUpdateTime                              : 01-01-0001 00:00:00
+ForestConfigVersion                                       :
+ForestConfigLastRunTime                                   : 01-01-0001 00:00:00
+EndUserDLUpgradeFlowsDisabled                             : False
+OcmGroupId                                                :
+Id                                                        : First Organization
+IsValid                                                   : True
+ExchangeVersion                                           : 0.1 (8.0.535.0)
+DistinguishedName                                         : CN=Configuration,CN=unicomindia.onmicrosoft.com,CN=Configur
+                                                            ationUnits,DC=INDPR01A002,DC=PROD,DC=OUTLOOK,DC=COM
+ObjectCategory                                            : INDPR01A002.PROD.OUTLOOK.COM/Configuration/Schema/ms-Exch-C
+                                                            onfiguration-Unit-Container
+ObjectClass                                               : {top, container, msExchOrganizationContainer,
+                                                            msExchConfigurationUnitContainer}
+WhenChanged                                               : 02-11-2021 07:54:17
+WhenCreated                                               : 19-01-2016 13:22:14
+WhenChangedUTC                                            : 02-11-2021 02:24:17
+WhenCreatedUTC                                            : 19-01-2016 07:52:14
+ExchangeObjectId                                          : a309d863-10f3-4b63-8ffb-8a779781d19f
+OrganizationalUnitRoot                                    : unicomindia.onmicrosoft.com
+OriginatingServer                                         : BM1PR01A002DC07.INDPR01A002.PROD.OUTLOOK.COM
+ObjectState                                               : Changed
+
+
+
+PS C:\WINDOWS\system32>
+PS>Get-TransportConfig |fl
+
+
+AddressBookPolicyRoutingEnabled                             : False
+AnonymousSenderToRecipientRatePerHour                       : 1800
+ClearCategories                                             : True
+ConvertDisclaimerWrapperToEml                               : False
+DSNConversionMode                                           : PreserveDSNBody
+JournalArchivingEnabled                                     : False
+ExternalDelayDsnEnabled                                     : True
+ExternalDsnDefaultLanguage                                  :
+ExternalDsnLanguageDetectionEnabled                         : True
+ExternalDsnMaxMessageAttachSize                             : 10 MB (10,485,760 bytes)
+ExternalDsnReportingAuthority                               :
+ExternalDsnSendHtml                                         : True
+ExternalPostmasterAddress                                   :
+GenerateCopyOfDSNFor                                        : {}
+HygieneSuite                                                : Premium
+InternalDelayDsnEnabled                                     : True
+InternalDsnDefaultLanguage                                  :
+InternalDsnLanguageDetectionEnabled                         : True
+InternalDsnMaxMessageAttachSize                             : 10 MB (10,485,760 bytes)
+InternalDsnReportingAuthority                               :
+InternalDsnSendHtml                                         : True
+InternalSMTPServers                                         : {}
+JournalMessageExpirationDays                                : 0
+JournalingReportNdrTo                                       : network@uni-com.in
+LegacyJournalingMigrationEnabled                            : False
+LegacyArchiveJournalingEnabled                              : False
+LegacyArchiveLiveJournalingEnabled                          : False
+RedirectUnprovisionedUserMessagesForLegacyArchiveJournaling : False
+RedirectDLMessagesForLegacyArchiveJournaling                : False
+MaxDumpsterSizePerDatabase                                  : 18 MB (18,874,368 bytes)
+MaxDumpsterTime                                             : 7.00:00:00
+MaxReceiveSize                                              : Unlimited
+MaxRecipientEnvelopeLimit                                   : Unlimited
+MaxSendSize                                                 : Unlimited
+MigrationEnabled                                            : True
+OpenDomainRoutingEnabled                                    : False
+Rfc2231EncodingEnabled                                      : False
+SafetyNetHoldTime                                           : 7.00:00:00
+SmtpClientAuthenticationDisabled                            : False
+SupervisionTags                                             : {Reject, Allow}
+TLSReceiveDomainSecureList                                  : {}
+TLSSendDomainSecureList                                     : {}
+VerifySecureSubmitEnabled                                   : False
+VoicemailJournalingEnabled                                  : True
+HeaderPromotionModeSetting                                  : NoCreate
+Xexch50Enabled                                              : True
+
+
+
+PS C:\WINDOWS\system32>
+PS>Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20211102115758
+**********************
